@@ -13,8 +13,13 @@ Completed Linux+ XK0-006 (V8) course in Ascend Education. The labs are interacti
 
 - <b>Linux Ubuntu</b>
 
-<h2>Module 01 Labs</h2>
-Lab 1.1 - [Linux Basics](https://github.com/digidestinedchevy/linux-XK0-006/blob/main/Module01-Lab1-1.md)
+<h2>Module 01</h2> 
+- Explain basic Linux concepts <br />
+- Summarize Linux device management concepts and tools <br />
+- Given a scenario, manage storage in a Linux system <br />
+
+<b>Lab 1.1</b> - [Linux Basics](Module01/M1Lab1-1.md)
+
 <br />
 <br />
 
