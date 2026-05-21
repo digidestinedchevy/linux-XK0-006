@@ -14,7 +14,7 @@ Completed Linux+ XK0-006 (V8) course in Ascend Education. The labs are interacti
 - <b>Linux Ubuntu</b>
 
 <h2>Module 01 Labs</h2>
-Lab 1.1 - [Linux Basics](linux-XK0-006/Module01-Lab1.1.md)
+Lab 1.1 - [Linux Basics](https://github.com/digidestinedchevy/linux-XK0-006/blob/main/Module01-Lab1-1.md)
 <br />
 <br />
 
