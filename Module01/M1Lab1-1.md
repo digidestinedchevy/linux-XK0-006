@@ -95,5 +95,65 @@ The Linux file system follows a hierarchical structure starting from the root di
 <img src="https://imgur.com/5MOFZ0F.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
 <br />
 <br />
-
 </p>
+<h2>Task 2: Access Built-In Documentation for Linux Commands</h2>
+In this task, you will learn to use Linux documentation tools to access help information for commands
+<br />
+<br />
+<p align="center">
+1. Type <b><i>man ls</i></b> to access the manual page for the <b><i>ls</i></b> command. The <b><i>man</i></b> (manual) command displays comprehensive documentation for Linux commands, including description, syntax, options, and examples. Manual pages are the primary documentation system in Linux: <br/>
+<img src="https://imgur.com/GysgTmR.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+2. You can use the <b><i>Space</i></b> key to move forward one page, or press <b><i>Enter</i></b> to move forward one line at a time. Press <b><i>Up Arrow</i></b> and <b><i>Down Arrow</i></b> to access the manual page. In manual pages, you can search for specific text by typing a forward slash (/) followed by your search term. The <b><i>n</i></b> key finds the next match, while <b><i>N</i></b> (shift+n) finds the previous match. The <b><i>q</i></b> key is the standard way to exit manual pages and other page programs like less and more: <br/>
+<img src="https://imgur.com/KGbfJhp.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+3. Type <b><i>man cp</i></b> to view the manual page for the <b><i>cp</i></b> command. The <b><i>cp</i></b> (copy) command is used to copy files and directories. The manual page shows all available options and usage examples: <br/>
+<img src="https://imgur.com/mn7gdXi.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+4. Type <b><i>ls --help</i></b> to use the <b><i>--help</i></b> option with the <b><i>ls</i></b> command. Most Linux commands support the <b><i>--help</i></b> option, which displays a brief summary of command syntax and available options. This is quicker than reading the full manual page when you need a quick reference: <br/>
+<img src="https://imgur.com/eVCJt9J.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+5. Type <b><i>cp --help</i></b> to view help information for the <b><i>cp</i></b> command. Notice that <b><i>--help</i></b> provides a more concise overview compared to the manual page, making it useful for quick lookups: <br/>
+<img src="https://imgur.com/zSzkZeH.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+6. Type <b><i>info ls</i></b> to access the info documentation for the <b><i>ls</i></b> command. The <b><i>info</i></b> command displays documentation in a different format than <b><i>man</i></b> pages. <b><i>info</i></b> pages are organized in a hypertext structure with nodes and links, providing more detailed explanations and cross-references. Press <b><i>Space</i></b> key to navigate through the info page. Press <b><i>q</i></b> key to exit the info page: <br/>
+<img src="https://imgur.com/LTLbWYZ.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+7. Type <b><i>info cp</i></b> to view info documentation for the <b><i>cp</i></b> command. Navigate through the info page using the <b><i>Space</i></b> key and <b><i>Arrow</i></b> keys to explore different sections. Press <b><i>q</i></b> key to exit the info page: <br/>
+<img src="https://imgur.com/1tvnIsy.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+8. Type <b><i>man -k copy</i></b> to use the <b><i>man</i></b> command to search for commands related to "copy". The <b><i>-k</i></b> option (keyword search) searches through the short descriptions in all manual pages for the specified keyword. This is helpful when you know what you want to do but don't know the exact command name. If you encounter the error: <i>copy nothing appropriate</i>. Execute <b><i>sudo mandb</i></b> to rebuild the manual page database, and then perform step 18 again: <br/>
+<img src="https://imgur.com/2NHqGWM.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+9. Type <b><i>man -k copy | sudo tee /mnt/winshare/man_k_output.txt</i></b> to save the output of the keyword search into a reference file. If prompted, type the password and press Enter. (When entering a password in Linux, you will not see any characters as you type). Saving command output to a file is useful when you want to keep documentation or search results for later review: <br/>
+<img src="https://imgur.com/BdpfmXB.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+10. Type <b><i>whatis ls</i></b> to display a brief description of the <b><i>ls</i></b> command. The <b><i>whatis</i></b> command displays a one-line description of a command from its manual page: <br/>
+<img src="https://imgur.com/YNfGW4F.png" height="50%" width="50%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+<p align="center">
+11. Type <b><i>help cd</i></b> to view short help for the <b><i>cd</i></b> command. Some commands like <b><i>cd</i></b> are built into the shell rather than being separate programs. For these built-in commands, use the <b><i>help</i></b> command instead of <b><i>man</i></b>: <br/>
+<img src="https://imgur.com/xodlufk.png" height="80%" width="80%" alt="Lab1.1 Steps"/>
+<br />
+<br />
+</p>
+
